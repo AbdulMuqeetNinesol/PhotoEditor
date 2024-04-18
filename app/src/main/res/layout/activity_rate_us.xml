@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".rateUs">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/object"/>
+    <TextView
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_35sdp"
+        android:text="@string/your_opinion"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="@color/dashboard"/>
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_35sdp"
+        android:text="@string/we_work"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/dashboard"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_width="@dimen/_167sdp"
+        android:layout_height="@dimen/_41sdp"
+        android:text="@string/rate_us"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/round_btn_two"
+        app:layout_constraintTop_toBottomOf="@+id/image_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</LinearLayout>

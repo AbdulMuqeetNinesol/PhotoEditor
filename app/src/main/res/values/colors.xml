@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+    <color name="tool_bg">#151414</color>
+    <color name="semi_black_transparent">#99000000</color>
+    <color name="dashboard">#8C6FE6</color>
+    <color name="box1">#FB8F57</color>
+    <color name="box2">#34B25F</color>
+    <color name="box3">#E65982</color>
+    <color name="box4">#1ED3D3</color>
+    <color name="test">#9FAE0D</color>
+    <color name="tex">#7650CC</color>
+    <color name="trans">#00000000 </color>
+    <color name="lightgrey">#F2F2F2</color>
+    <color name="darkgrey">#939090</color>
+
+    <color name="dialogBackground">#60000000</color>
+</resources>

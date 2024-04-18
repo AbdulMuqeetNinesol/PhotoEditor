@@ -1,0 +1,4 @@
+
+include ':app', ':photoeditor'
+//Linese
+//include ':autobackgroundremover'

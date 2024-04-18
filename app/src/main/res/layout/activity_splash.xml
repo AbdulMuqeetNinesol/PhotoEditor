@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context="com.burhanrashid52.photoediting.SplashActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/splashPic"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_250sdp"
+        android:src="@drawable/groupsplash"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_40sdp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/splashPicTwo"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:src="@drawable/splashthree"
+        app:layout_constraintTop_toBottomOf="@+id/splashPic"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_25sdp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/startButton"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_50sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/splash_round_btn"
+        android:text="@string/get_started"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
